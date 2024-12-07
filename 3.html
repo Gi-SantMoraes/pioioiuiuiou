@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 3</title>
+    <style>
+        body {
+            display: grid;
+            grid-template-areas:
+                "nav header"
+                "section aside"
+                "footer footer";
+            grid-template-columns: 3fr 1fr;
+            gap: 10px;
+        }
+        header {
+            grid-area: header;
+            background-color: aliceblue;
+        }
+        nav {
+            grid-area: nav;
+            background-color: antiquewhite;
+        }
+        section {
+            grid-area: section;
+            background-color: aqua;
+        }
+        footer {
+            grid-area: footer;
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <p>Navegação</p>
+    </nav>
+    <header>
+        <h1>Cabeçalho</h1>
+    </header>
+    <section>
+        <p>Seção principal com conteúdo.</p>
+    </section>
+    <aside>
+        <p>Informações adicionais.</p>
+    </aside>
+    <footer>
+        <p>Rodapé</p>
+    </footer>
+</body>
+</html>
